@@ -14,5 +14,7 @@ fun main(args: Array<String>) {
     val minLongValue: Long = Long.MIN_VALUE
     println("Max Long is $maxLongValue \nMin Long value is $minLongValue")
 
+    val myNumber = 28
+
 
 }
