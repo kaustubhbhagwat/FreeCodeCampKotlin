@@ -12,19 +12,19 @@ fun main() {
 
     var result = x + y
 
-    result =  result+2
+    result += 2
     println(result)
 
-    result =  result-2
+    result -= 2
     println(result)
 
-    result =  result*2
+    result *= 2
     println(result)
 
-    result =  result/2
+    result /= 2
     println(result)
 
-    result =  result%2
+    result %= 2
     println(result)
 
 }
