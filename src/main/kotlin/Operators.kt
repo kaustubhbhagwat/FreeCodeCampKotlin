@@ -34,6 +34,16 @@ fun main() {
     println("x= ${x++}")
     //preIncrementation
     println("x= ${++x}")
+    //postDecrementation
+    println("x=${x--}")
+    //preDecrementation
+    println("x=${--x}")
+
+
+    /*
+
+
+     */
 
 
 }
