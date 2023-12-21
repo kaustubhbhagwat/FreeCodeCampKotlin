@@ -1,5 +1,5 @@
 fun main() {
-    var x= 5
+    var x = 5
     val y = 3.0
 
 
@@ -29,7 +29,7 @@ fun main() {
 
     println(" 3 + 3 * 4 = ${(3 + 3) * 4}")
 
-    x=0
+    x = 0
     //postIncrementation
     println("x= ${x++}")
     //preIncrementation
@@ -39,6 +39,15 @@ fun main() {
     //preDecrementation
     println("x=${--x}")
 
+
+    val myNumber = 151
+    if (myNumber >= 150) {
+        println("Number is greater than 150")
+    } else if (myNumber > 90) {
+        println("Number is greater than 90")
+    } else {
+        println("All commands failed")
+    }
 
     /*
 
