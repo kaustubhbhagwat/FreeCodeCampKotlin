@@ -40,8 +40,6 @@ fun main() {
     println("x=${--x}")
 
 
-
-
     val myNumber = 151
     if (myNumber >= 150) {
         println("Number is greater than 150")
@@ -52,9 +50,27 @@ fun main() {
     }
 
     val isActive = false
-    if(isActive){
+    if (isActive) {
         println("User is Active")
-    }else{
+    } else {
         println("User is Not Active")
     }
+
+    val isPlaying = true
+    val score = 80
+
+    if (isPlaying && score == 100) {
+        println("Next Level Opened")
+    } else {
+        println("Still at the same level")
+    }
+
+    val num1 = 5
+    val num2 = -3
+    val text:String = if (num1 > 0 || num2 > 0)
+        "This is text 1"
+    else
+        "This is Text 2"
+    println(text)
+
 }
