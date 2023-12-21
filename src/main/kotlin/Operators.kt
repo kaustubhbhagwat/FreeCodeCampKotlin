@@ -40,6 +40,8 @@ fun main() {
     println("x=${--x}")
 
 
+
+
     val myNumber = 151
     if (myNumber >= 150) {
         println("Number is greater than 150")
@@ -49,10 +51,10 @@ fun main() {
         println("All commands failed")
     }
 
-    /*
-
-
-     */
-
-
+    val isActive = false
+    if(isActive){
+        println("User is Active")
+    }else{
+        println("User is Not Active")
+    }
 }
