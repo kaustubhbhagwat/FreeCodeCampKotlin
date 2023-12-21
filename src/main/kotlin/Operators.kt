@@ -27,4 +27,13 @@ fun main() {
     result %= 2
     println(result)
 
+    println(" 3 + 3 * 4 = ${(3 + 3) * 4}")
+
+    x=0
+    //postIncrementation
+    println("x= ${x++}")
+    //preIncrementation
+    println("x= ${++x}")
+
+
 }
